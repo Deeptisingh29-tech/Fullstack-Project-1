@@ -96,4 +96,9 @@
             border: 5px solid black;
             margin: 40px 80px;
         }
+        header ul li:hover{
+            color: goldenrod;
+            font-size: 40px;
+            
+        }
     
