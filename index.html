@@ -12,8 +12,8 @@
         <div id="logo">
             <img src="./image/bb1.jpg">
         </div>
-        <h1> <span style="color: yellow; margin-left: 10px;">Bharat</span></h1>
-        <h1><span style="color:green;margin-left: 5px;">Bhraman</span></h1>
+        <h1> <span style="color: rgb(179, 168, 14); margin-left: 10px;">Bharat</span></h1>
+        <h1><span style="color:rgb(236, 214, 14);margin-left: 5px;">Bhraman</span></h1>
        
         <ul>
             <li><i class="fa fa-users" aria-hidden="true"></i><a href="./linked_pages/aboutus.html">About us</a></li>
@@ -22,21 +22,213 @@
             <li><i class="fa fa-home" aria-hidden="true"></i><A href="#"><a href="#">Home</a></A></li>
         </ul>
     </header>
+    <div class="container">
+        <div class="column active">
+            <div class="content">
+                <h1>1</h1>
+                <div class="box">
+                    <h2>पूर्वोत्तर भारत</h2>
+                    <p>Eastern Zone of India is rich in Cultural Heritage. You can have a taste of beaches, temples, monastries, buddhist circuit with a rural touch.
+
+                        Most Popular tourist destinations for this region are, Calcutta, Former Captal of India, Puri & Bhubaneshwar, Buddhist Circuit in Bihar, Monastries in Sikkim, Kanchenjunga Range of Mountains in Darjeeling etc.</p>
+                </div>
+            </div>
+            <div class="bg bg1"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>2</h1>
+                <div class="box">
+                    <h2>उत्तर भारत</h2>
+                    <p>North India is a pure delight to mountain lovers and adventure enthusiasts. There are plenty of picturesque, popular, and off-the-wall hill stations nestled in the Himalayas.The places in this northern region can astound you by their cultural extravaganza, architectural marvels and local cuisine, all so different from each other yet sharing the same region. </p>
+                </div>
+            </div>
+            <div class="bg bg2"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>3</h1>
+                <div class="box">
+                    <h2>दक्षिण भारत</h2>
+                    <p>South of India is the country’s haven of natural beauty abundant with mystical hills, intricately carved temples and quaint backwaters.It’s a melting pot of cultures, cuisines, traditions, and languages. There’s something to do for everyone here – water sports for the adventurous, backwaters for the romantics, trekking trails for hikers, and panoramic vistas for nature lovers.</p>
+                </div>
+            </div>
+            <div class="bg bg3"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>4</h1>
+                <div class="box">
+                    <h2>पश्चिम भारत</h2>
+                    <p>West India is rolled down with the amber color of palaces, rustic flavor of historical India, sand dunes of the Rajasthan deserts, hippie culture of Anglo Indic Goa, the Western Ghats colored in the shades of green and white salt deserts of the Rann of Kutch. The topographical changes while traveling to western India is mirrored in its culture.</p>
+                </div>
+            </div>
+            <div class="bg bg4"></div>
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).on('mouseover','.container .column', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+</script>
+<main>
+    <h2>Top Activities To Do In India</h2>
     <section>
-        <video id="slider" autoplay muted loop>
-            <source src="../Fullstack-Project-1/video/video (1).mp4" type="video/mp4">
-        </video>
-         <ul class="navigation">
-             <li onclick="videourl('../Fullstack-Project-1/video/Pexels Videos 2519660.mp4')"><img src="../Fullstack-Project-1/image/Screenshot (155).png"></li>
-             <li onclick="videourl('../Fullstack-Project-1/video/Top 17 Tourist Places In South India During Summer.mp4')"><img src="../Fullstack-Project-1/image/Screenshot (166).png"></li>
-             <li onclick="videourl('../Fullstack-Project-1/video/video.mp4')"><img src="../Fullstack-Project-1/image/Screenshot (157).png"></li>
-             <li onclick="videourl('../Fullstack-Project-1/video/Pexels Videos 1779202.mp4')"><img src="../Fullstack-Project-1/image/Screenshot (158).png"></li>
-         </ul>
+        <div class="slide">
+            <div class="act-content">
+            <h2>Visit Taj Mahal</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2>Explore Rajasthan</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2>Backwater River Trip</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2> Adventure Trekking/Hiking to Leh</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2>Make a visit to Indian Beaches</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2>Discover Indian Culture and Tradition</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="act-content">
+            <h2> Have a taste of Indian Cuisine</h2>
+            </div>
+        </div>
     </section>
-    <script type="text/javascript">
-        function videourl(videolink){
-            document.getElementById("slider").src=videolink;
-        }
-   </script>
+</main>
+<article>
+    
+   <div class="flip-cont">
+      <div class="flip-cover">
+          <figure class="front">
+          </figure>
+          <figure class="back"></figure>
+      </div>
+    </div>
+     <!--<div class="bannerexp">
+        <div class="sliderexp">
+            <img src="./image/River-Cruise-and-Backwater-Cruise-India-1024x640.jpg">
+        </div>
+    </div>-->
+    <h2>Put on a Happy face while Travelling with us</h2>
+    <p>At Bharat Bhraman, we offer comprehensive services for leisure and corporate travel as well as completely customized travel packages. We understand every whim of the inveterate history buff and every fetish of the critical gourmand. We indulge the fancies of the most avid traveller, and satisfy the curiosity of the most inquiring mind. Our in-depth expertise of the Indian sub-continent helps us to tailor make travel packages that are customized to individual requirements. We also cater for specialized itineraries, like culinary, cultural, spiritual, holistic, Ayurveda and wellness holidays. We assist you to get instant confirmations at competitive prices.</p>
+    <a href="./linked_pages/aboutus.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Read more</a>
+</article>
+    <div class="card_c">
+    <div class="container-card">
+        <div class="box-card">
+            <div class="imgBx-card">
+                <img src="./image/img1.jpg">
+            </div>
+            <div class="content-card">
+                <h2>Humayun's tomb</h2>
+                <p>Humayun's tomb is the tomb of the Mughal Emperor Humayun in Delhi, India. The tomb was commissioned by Humayun's first wife and chief consort, Empress Bega Begum.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box-card">
+            <div class="imgBx-card">
+                <img src="./image/infras.jpg">
+            </div>
+            <div class="content-card">
+                <h2>Modern India</h2>
+                <p>Calling India a 'Developed Nation' is no cause for celebration. It is claimed that India is among some of the 'richest' countries in the world.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box-card">
+            <div class="imgBx-card">
+                <img src="./image/dance.jpg">
+            </div>
+            <div class="content-card">
+                <h2>Mohiniyattam</h2>
+                <p>Mohiniyattam is one of the famous classical dances of India that developed and remained popular in the state of Kerala.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="footer">
+    <footer>
+    <div class="footer-cont">
+        <div class="sec aboutus">
+            <h2>Developers</h2>
+            <br>
+            <br>
+            <br>
+            <p>
+                Quickstart guide
+                <br><br>
+                Technical Overview
+                <br><br>
+                FAQs
+            </p>
+       
+       <ul class="footer-sci">
+           <li><a href="#"><i class="fa fa-facebook" ></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+           <li><a href="#"><i class="fa fa-youtube-play" ></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram" ></i></a></li>
+       </ul>
+    </div>
+       <div class="sec quickLinks">
+          <h2>Quick Links</h2>
+          <br>
+          <br>
+          <br>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Destination</a></li>
+              <li><a href="#">Cuisine</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+          </ul>
+    </div>
+    <div class="sec contact">
+    <h2>Contact Info</h2>
+    <br>
+    <br>
+    <br>
+    <ul class="info">
+        <li>
+            <span><i class="fa fa-map-marker" ></i></span>
+            <span>GLA UNIVERSITY, MATHURA</span>
+        </li>
+        <li>
+            <span><i class="fa fa-phone" ></i></span>
+            <p><a href="tel:1234567890">9123455667</a></p>
+        </li>
+        <li>
+            <span><i class="fa fa-envelope" ></i></span>
+            <p><a href="mailto:">abc@gmail.com</a></p>
+        </li>
+    </ul>
+    </div>
+    </div>
+    </footer>
+    </div>
 </body>
 </html>
